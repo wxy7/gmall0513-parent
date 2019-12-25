@@ -1,0 +1,14 @@
+package com.atguigu.gmall0513.mock.util;
+
+import java.util.Random;
+/**
+ * author : wuyan
+ * create : 2019-12-24 19:57
+ * desc :
+ */
+public class RandomNum {
+    public static final  int getRandInt(int fromNum,int toNum){
+        return   fromNum+ new Random().nextInt(toNum-fromNum+1);
+    }
+}
+
